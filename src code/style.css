@@ -10,6 +10,9 @@
         color: var(--second-main-color);
         font-weight: 400;
 }
+*{
+  text-transform: capitalize;
+}
   
 h1, h2, h3, h4, h5, h6, .logo {
         font-family: 'Poppins', sans-serif;
@@ -44,14 +47,7 @@ h1, h2, h3, h4, h5, h6, .logo {
     justify-content: center;
     align-items: center;
   }
-  /* .navbar-default .navbar-nav > li .active {
-    color: aqua;
-  }
-  .navbar-nav .nav-item .navlink:active{
-    border-bottom: white;
-    color: aqua;
 
-  } */
   .fw-hello{
     font-weight: 800;
     font-size: 48px;
@@ -117,6 +113,7 @@ h1, h2, h3, h4, h5, h6, .logo {
     -o-transition: all 1s ease-in-out;
 }
 .text-anim{
+  font-weight: 600;
     transform: translateY(-25px);
     transition: all 1s;
     -webkit-transform: translateY(-25px);
@@ -142,6 +139,7 @@ h1, h2, h3, h4, h5, h6, .logo {
     -ms-transform: translateY(-15px);
     -o-transform: translateY(-15px);
 }
+
 .icon1:hover{ 
     background-color: white; 
     color:black !important;
@@ -151,9 +149,7 @@ h1, h2, h3, h4, h5, h6, .logo {
     color:black !important;
 }
 .nav-pills .nav-link.active{
-  background-color:gray;
-  border-bottom: #1c1c1c 10px !important;
-  border: 10px !important;
+  background-color:transparent;
 
 }
 
@@ -163,4 +159,74 @@ h1, h2, h3, h4, h5, h6, .logo {
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
+}
+.nav-pills .nav-link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background:#111;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  z-index: -1;
+}
+.nav-pills .nav-link.active::after {
+width: 95%;
+
+}
+/* .navbar-nav .nav-link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background:rgb(89, 18, 18);
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  z-index: -1;
+}
+.navbar-nav .nav-link.active::after {
+width: 95%;
+
+} */
+.img-conat{
+  width: 20%;
+}
+
+
+
+@media screen and  ( max-width: 750px){
+  .img-conat{
+    width: 60%;
+  }
+}
+.progress-bar0{
+  animation: progress-bar 7s  1s ;
+  -webkit-animation: progress-bar 10s  1s ;
+}
+
+@keyframes progress-bar{
+  0% { width: 0;}
+  100% { width: 90%;}
+}
+.progress-bar1{
+  animation: progress-bar1 7s  1s ;
+  -webkit-animation: progress-bar1 10s  1s ;
+}
+
+@keyframes progress-bar1{
+  0% { width: 0;}
+  100% { width: 80%;}
+}
+.progress-bar2{
+  animation: progress-bar2 7s  1s ;
+  -webkit-animation: progress-bar2 10s  1s ;
+}
+
+@keyframes progress-bar2{
+  0% { width: 0;}
+  100% { width: 95%;}
 }

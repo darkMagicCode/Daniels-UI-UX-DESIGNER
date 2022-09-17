@@ -17,15 +17,19 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
       rel="stylesheet"
     />
+
+
   </head>
   <body>
-    <header class="mb-5">
+        <!------------------------ header me section --------------------------- -->
+
+    <header class="mb-5" id="home">
       <nav
         class="navbar navbar-expand-lg bg-black py-3 position-fixed top-0 w-100"
-        style="z-index: 1"
+        style="z-index: 3"
       >
         <div class="container">
-          <a class="navbar-brand text-white fw-bolder px-4 fs-5" href="#"
+          <a class="navbar-brand nav.test text-white fw-bolder px-4 fs-5" href="#home"
             >DANIELS
           </a>
           <button
@@ -43,54 +47,55 @@
             <ul class="navbar-nav ms-auto fs-6 justify-content-evenly">
               <li class="nav-item">
                 <a
-                  class="nav-link px-4 active text-white"
+                  class="nav-link px-4 active position-relative text-white"
                   aria-current="page"
-                  href="#"
+                  href="#home"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link px-4 text-white" href="#about">about</a>
+                <a class="nav-link  px-4 text-white position-relative" href="#about">about</a>
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link px-4 text-white"
+                  class="nav-link px-4 text-white position-relative"
                   aria-current="page"
-                  href="#what-i-do"
-                  >skills</a
+                  href="#service"
+                  
+                  >service</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link px-4 text-white"
+                  class="nav-link px-4 text-white position-relative"
                   aria-current="page"
-                  href="#Resume"
-                  >Resume</a
+                  href="#work"
+                  >work</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link px-4 text-white"
+                  class="nav-link px-4 text-white position-relative"
                   aria-current="page"
-                  href="#portfolio"
-                  >portfolio</a
+                  href="#client"
+                  >client</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link px-4 text-white"
+                  class="nav-link px-4 text-white position-relative"
                   aria-current="page"
-                  href="#portfolio"
-                  >portfolio</a
+                  href="#blog"
+                  >blog</a
                 >
               </li>
 
               <li class="nav-item">
                 <a
-                  class="nav-link px-4 text-white"
+                  class="nav-link px-4 text-white position-relative"
                   aria-current="page"
-                  href="#client"
-                  >client</a
+                  href="#contact"
+                  >contact</a
                 >
               </li>
             </ul>
@@ -100,10 +105,10 @@
 
       <main class="text-white text-center">
         <h3 class="text-capitalize fw-hello">hello</h3>
-        <h2 class="display-2 mb-5">iam <span class="text-typing"></span></h2>
+        <h2 class="display-2 mb-5">I Am <span class="text-typing text-capitalize"></span></h2>
         <a class="fw-bold my-3" href=""
           ><i
-            class="p-2 fa-brands fa-twitter text-white bg-black rounded-circle p-1 mx-1"
+            class="p-2 fa-brands fa-facebook-f text-white bg-black rounded-circle p-1 mx-1"
           ></i
         ></a>
         <a class="fw-bold my-3" href=""
@@ -113,24 +118,24 @@
         ></a>
         <a class="fw-bold my-3" href=""
           ><i
-            class="p-2 fa-brands fa-twitter text-white bg-black rounded-circle p-1 mx-1"
+            class="p-2 fa-brands fa-linkedin-in text-white bg-black rounded-circle p-1 mx-1"
           ></i
         ></a>
         <a class="fw-bold my-3" href=""
           ><i
-            class="p-2 fa-brands fa-twitter text-white bg-black rounded-circle p-1 mx-1"
+            class="p-2 fa-brands fa-behance text-white bg-black rounded-circle p-1 mx-1"
           ></i
         ></a>
         <a class="fw-bold my-3" href=""
           ><i
-            class="p-2 fa-brands fa-twitter text-white bg-black rounded-circle p-1 mx-1"
+            class="p-2 fa-brands fa-youtube text-white bg-black rounded-circle p-1 mx-1"
           ></i
         ></a>
       </main>
     </header>
     <!------------------------ about me section --------------------------- -->
 
-    <section id="" class="py-5">
+    <section id="about" class="py-5 " >
       <div class="container">
         <div class="row">
           <div class="col-md-4 offset-md-1">
@@ -145,7 +150,7 @@
               </h3>
               <h5 class="h6">UI / UX DESIGNER & WEB DEVELOPER</h5>
               <p class="lead fs-6">
-                I am <span class="fs-5 fw-boler">Jerry Daniels</span> Lorem
+                I am <span class="fs-5 fw-boler text-black">Jerry Daniels</span> Lorem
                 Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever It has survived not only five centuries, but also the
@@ -157,7 +162,7 @@
             <div class="py-4">
               <div class="progress mb-4">
                 <div
-                  class="progress-bar bg-main-color rounded-2"
+                  class="progress-bar progress-bar2 bg-main-color rounded-2"
                   role="progressbar"
                   aria-label="Example with label"
                   style="width: 95%"
@@ -173,23 +178,23 @@
               </div>
               <div class="progress mb-4">
                 <div
-                  class="progress-bar bg-main-color rounded-2"
+                  class="progress-bar progress-bar1 bg-main-color rounded-2"
                   role="progressbar"
                   aria-label="Example with label"
-                  style="width: 80%"
+                  style="width: 80% "
                   aria-valuenow="80"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
                   <div class="justify-content-between d-flex px-2">
-                    <div class="d-inline text-start">web design</div>
-                    <div class="d-inline text-end">95%</div>
+                    <div class="d-inline text-start">Branding</div>
+                    <div class="d-inline text-end">80%</div>
                   </div>
                 </div>
               </div>
               <div class="progress mb-4">
                 <div
-                  class="progress-bar bg-main-color rounded-2"
+                  class="progress-bar progress-bar0  bg-main-color rounded-2"
                   role="progressbar"
                   aria-label="Example with label"
                   style="width: 90%"
@@ -197,33 +202,33 @@
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <div class="justify-content-between d-flex px-2">
-                    <div class="d-inline text-start">web design</div>
-                    <div class="d-inline text-end">95%</div>
+                  <div class="justify-content-between  d-flex px-2">
+                    <div class="d-inline text-start">Development</div>
+                    <div class="d-inline text-end">90%</div>
                   </div>
                 </div>
               </div>
             </div>
             <a href="" class="btn btn-dark"> Download cv</a>
-            <a href="" class="btn btn-outline-dark"> Download cv</a>
+            <a href="" class="btn btn-outline-dark"> contact me</a>
           </div>
         </div>
       </div>
     </section>
     <!-- ----------------------sevice section --------------------------- -->
-    <section class="bg-gray py-5">
+    <section class="bg-gray py-5" id="service">
       <div class="container">
         <h2 class="h1 p-5 m-5 fw-bolder main-color text-capitalize text-center">
           Services.
         </h2>
-        <div class="row gy-5 gx-0">
-          <div class="col-md-4 text-center px-4">
-            <div class="shadow bg-white py-4 px-4 service-hover rounded-2">
+        <div class="row gy-4 gx-0 text-capitalize">
+          <div class="col-md-4 text-center px-3">
+            <div class="shadow-sm bg-white  pb-4 pt-5 px-3 service-hover rounded-2">
               <i
-                class="mb-2 fa-solid fa-check main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
+                class="mb-2 fa fa-laptop main-color fa-2x mt-3 rounded-circle p-3 bg-gray"
               >
               </i>
-              <h3 class="py-2">web desgin</h3>
+              <h3 class="py-2 main-color">web desgin</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
                 industry's standard dummy text ever
@@ -231,13 +236,13 @@
             </div>
           </div>
 
-          <div class="col-md-4 text-center px-4">
-            <div class="shadow bg-white py-4 px-3 service-hover rounded-2">
+          <div class="col-md-4 text-center px-3">
+            <div class="shadow-sm bg-white  pb-4 pt-5 px-3 service-hover rounded-2">
               <i
-                class="mb-2 fa-solid fa-check main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
+                class="mb-2 fa-solid fa-bullhorn main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
               >
               </i>
-              <h3 class="py-2">web desgin</h3>
+              <h3 class="py-2 main-color">Branding</h3>
               <p>
                 Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
                 industry's standard dummy text ever
@@ -245,13 +250,13 @@
             </div>
           </div>
 
-          <div class="col-md-4 text-center px-4">
-            <div class="shadow bg-white py-4 px-3 service-hover rounded-2">
+          <div class="col-md-4 text-center px-3">
+            <div class="shadow-sm bg-white  pb-4 pt-5 px-3 service-hover rounded-2">
               <i
-                class="mb-2 fa-solid fa-check main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
+                class="mb-2 fa-solid fa-umbrella main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
               >
               </i>
-              <h3 class="py-2">web desgin</h3>
+              <h3 class="py-2 main-color">Development            </h3>
               <p>
                 Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
                 industry's standard dummy text ever
@@ -259,13 +264,14 @@
             </div>
           </div>
 
-          <div class="col-md-4 text-center px-4">
-            <div class="shadow bg-white py-4 px-3 service-hover rounded-2">
+          <div class="col-md-4 text-center px-3">
+            <div class="shadow-sm bg-white  pb-4 pt-5 px-3 service-hover rounded-2">
               <i
-                class="mb-2 fa-solid fa-check main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
+                class="mb-2 fa-regular fa-gem main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
               >
               </i>
-              <h3 class="py-2">web desgin</h3>
+              <h3 class="py-2 main-color">Creative Design
+            </h3>
               <p>
                 Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
                 industry's standard dummy text ever
@@ -273,13 +279,14 @@
             </div>
           </div>
 
-          <div class="col-md-4 text-center px-4">
-            <div class="shadow bg-white py-4 px-3 service-hover rounded-2">
+          <div class="col-md-4 text-center px-3">
+            <div class="shadow-sm bg-white  pb-4 pt-5 px-3 service-hover rounded-2">
               <i
-                class="mb-2 fa-solid fa-check main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
+                class="mb-2 fa-solid fa-tv main-color fs-2  mt-3 rounded-circle p-3 bg-gray"
               >
               </i>
-              <h3 class="py-2">web desgin</h3>
+              <h3 class="py-2 main-color">Fully Responsive
+            </h3>
               <p>
                 Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
                 industry's standard dummy text ever
@@ -287,13 +294,14 @@
             </div>
           </div>
 
-          <div class="col-md-4 text-center px-4">
-            <div class="shadow bg-white py-4 px-3 service-hover rounded-2">
+          <div class="col-md-4 text-center px-3">
+            <div class="shadow-sm bg-white pb-4 pt-5 px-3 service-hover rounded-2">
               <i
-                class="mb-2 fa-solid fa-check main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
+                class="mb-2 fa-solid fa-camera main-color fs-2 mt-3 rounded-circle p-3 bg-gray"
               >
               </i>
-              <h3 class="py-2">web desgin</h3>
+              <h3 class="py-2 main-color">Retina Ready
+            </h3>
               <p>
                 Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
                 industry's standard dummy text ever
@@ -304,14 +312,14 @@
       </div>
     </section>
     <!-- ----------------------Portfolio section --------------------------- -->
-    <section class="py-5">
+    <section class="py-5" id="work">
       <div class="container">
         <h2 class="h1 p-5 text-black fw-bolder text-center">Portfolio.</h2>
         <figure class="  ">
-          <ul  class="nav nav-pills fw-bolder  mb-3 text-center justify-content-center"  id="pills-tab" role="tablist" >
-            <li class="nav-item" role="presentation">
+          <ul  class="nav nav-pills fw-bolder  mb-5 text-center justify-content-center"  id="pills-tab" role="tablist" >
+            <li class="nav-item position-relative " role="presentation">
               <button
-                class="nav-link active text-black"
+                class="nav-link active text-black "
                 id="pills-home-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-home"
@@ -323,7 +331,7 @@
                 all
               </button>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item position-relative" role="presentation">
               <button
                 class="nav-link text-black"
                 id="pills-profile-tab"
@@ -337,7 +345,7 @@
                 brand
               </button>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item position-relative" role="presentation">
               <button
                 class="nav-link text-black"
                 id="pills-contact-tab"
@@ -351,7 +359,7 @@
                 design
               </button>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item position-relative" role="presentation">
               <button
                 class="nav-link text-black"
                 id="pills-disabled-tab"
@@ -393,12 +401,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -423,12 +431,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -455,12 +463,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -485,12 +493,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -517,12 +525,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -547,12 +555,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -589,12 +597,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -620,12 +628,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -661,12 +669,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -694,12 +702,12 @@
                           <div class="icon-anmi position-absolute">
                             <a href="">
                               <i
-                                class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                                class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                               ></i
                             ></a>
                             <a href="">
                               <i
-                                class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                                class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                               ></i
                             ></a>
                           </div>
@@ -737,12 +745,12 @@
                         <div class="icon-anmi position-absolute">
                           <a href="">
                             <i
-                              class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                              class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                             ></i
                           ></a>
                           <a href="">
                             <i
-                              class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                              class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                             ></i
                           ></a>
                         </div>
@@ -768,12 +776,12 @@
                         <div class="icon-anmi position-absolute">
                           <a href="">
                             <i
-                              class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                              class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                             ></i
                           ></a>
                           <a href="">
                             <i
-                              class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                              class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                             ></i
                           ></a>
                         </div>
@@ -799,12 +807,12 @@
                         <div class="icon-anmi position-absolute">
                           <a href="">
                             <i
-                              class="icon1 fa-solid fa-check rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
+                              class="icon1 fa-solid fa-wand-magic-sparkles rounded-circle p-2 bg-main-color text-white border border-2 border-dark shadow-sm"
                             ></i
                           ></a>
                           <a href="">
                             <i
-                              class="icon2 fa-solid fa-check rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
+                              class="icon2 fa-solid fa-magnifying-glass-plus rounded-circle p-2 bg-main-color text-white shadow-sm border border-2 border-dark"
                             ></i
                           ></a>
                         </div>
@@ -822,9 +830,9 @@
       </div>
     </section>
     <!-- ----------------------Testimonials section --------------------------- -->
-    <section class="pv-5 bg-gray">
+    <section class="pv-5 bg-gray" id="client">
       <div class="container">
-        <h2 class="h1 p-5 text-black text-uppercase text-center">
+        <h2 class="h1 p-5 text-black fw-bolder text-capitalize text-center">
           Testimonials.
         </h2>
 
@@ -859,78 +867,84 @@
           </div>
 
           <div class="carousel-inner">
-            <div class="carousel-item active text-center">
-                <img src="IMG/clients/1 (1).jpg" class=" w-25 rounded-circle" alt="">
-
+            <div class="carousel-item active  text-center ">
+<div class="  img-conat m-auto ">
+                    <img src="IMG/clients/1 (1).jpg" class=" img-fluid rounded-circle" alt="">
+    
+</div>
               <h5 class="lead pt-5 mb-3 px-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatum molestiae aliquam in iusto? Quisquam suscipit
                 voluptatem eaque vel quasi ea deserunt vero magnam unde ullam!
               </h5>
-              <p class="mb-0">alex smith.</p>
-              <p class="pb-5">envanto customer.</p>
+              <p class="mb-1 h5 fw-bolder main-color">alex smith.</p>
+              <p class="mb-5">envanto customer.</p>
             </div>
 
             <div class="carousel-item text-center">
-                <img src="IMG/clients/1 (1).jpg" class=" w-25 rounded-circle" alt="">
-
+                <div class="  img-conat m-auto ">
+                    <img src="IMG/clients/1 (1).jpg" class=" img-fluid rounded-circle" alt="">
+    
+</div>
               <h5 class="lead pt-5 mb-3 px-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatum molestiae aliquam in iusto? Quisquam suscipit
                 voluptatem eaque vel quasi ea deserunt vero magnam unde ullam!
               </h5>
-              <p class="mb-0">alex smith.</p>
-              <p class="pb-5">envanto customer.</p>
+              <p class="mb-1 h5 fw-bolder main-color">alex smith.</p>
+              <p class="mb-5">envanto customer.</p>
             </div>
 
             <div class="carousel-item text-center">
-                <img src="IMG/clients/1 (1).jpg" class=" w-25 rounded-circle" alt="">
-
+                <div class="  img-conat m-auto ">
+                    <img src="IMG/clients/1 (1).jpg" class=" img-fluid rounded-circle" alt="">
+    
+</div>
               <h5 class="lead pt-5 mb-3 px-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatum molestiae aliquam in iusto? Quisquam suscipit
                 voluptatem eaque vel quasi ea deserunt vero magnam unde ullam!
               </h5>
-              <p class="mb-0">alex smith.</p>
-              <p class="pb-5">envanto customer.</p>
+              <p class="mb-1 h5 fw-bolder main-color">alex smith.</p>
+              <p class="mb-5">envanto customer.</p>
             </div>
           </div>
         </div>
       </div>
       <div class="bg-white py-5">
-        <div class="row text-center align-items-center py-5">
-          <div class="col-md-3">
-            <i
-              class="fa-solid fs-1 fa-building-columns p-2 fs-3 text-black mb-1"
-            ></i>
-            <h4 class="display-4 text-black">2+</h4>
-            <p class="fw-lighter fs-4 text-black-50">Years Experiance</p>
-          </div>
-          <div class="col-md-3">
-            <i class="fa-solid fa-smile-beam fs-3 p-2 text-black mb-1"></i>
-
-            <h4 class="display-4 text-black">200+</h4>
-            <p class="fw-lighter fs-4 text-black-50">Happy Clients</p>
-          </div>
-          <div class="col-md-3">
-            <i class="fa-solid fa-check fs-3 p-2 text-black mb-1"></i>
-
-            <h4 class="display-4 text-black">350+</h4>
-            <p class="fw-lighter fs-4 text-black-50">Projects Done</p>
-          </div>
-          <div class="col-md-3">
-            <i class="fa-solid fa-award fs-3 p-2 text-black mb-1"></i>
-
-            <h4 class="display-4 text-black">5+</h4>
-            <p class="fw-lighter fs-4 text-black-50">Get Awards</p>
-          </div>
+        <div class="container">
+        
+            <div class="row text-center text-center align-items-center my-5 py-5">
+              <div class="col-md-3">
+                <i
+                  class="fa-solid fa-fw fs-1 fa-users p-2 fs-3 text-black mb-2"
+                ></i>
+                <h4 class="h3 fw-bolder text-black">850</h4>
+                <p class="fw-bolder h6 main-color">Happy Customers            </p>
+              </div>
+              <div class="col-md-3 ">
+                <i class="fa-solid fa-fw fa-thumbs-up fs-3 p-2 text-black mb-2"></i>
+                <h4 class="h3 fw-bolder text-black">230</h4>
+                <p class="fw-bolder h6 main-color">Complete Projects</p>
+              </div>
+              <div class="col-md-3">
+                <i class="fa-solid fa-fw fa-bullhorn fs-3 p-2 text-black mb-2"></i>
+                <h4 class="h3 fw-bolder text-black">9450</h4>
+                <p class="fw-bolder h6 main-color">Lines Of Code</p>
+              </div>
+              <div class="col-md-3  ">
+                <i class="fa-solid fa-fw  fa-cloud-download fs-3 p-2 text-black mb-2"></i>
+                <h4 class="h3 fw-bolder text-black">780</h4>
+                <p class="fw-bolder h6 main-color">Files Downloaded</p>
+              </div>
+            </div>
         </div>
       </div>
     </section>
     <!-- ----------------------OUR BLOG section --------------------------- -->
-    <section class="py-5 bg-gray">
-      <div class="container mb-5">
-        <h2 class="h1 p-5 text-black text-capitalize fw-bolder text-center">our blog.</h2>
+    <section class="py-5 bg-gray" id="blog">
+      <div class="container mb-5 ">
+        <h2 class="h1 p-5 text-black text-capitalize py-5 fw-bolder text-center">our blog.</h2>
 
         <div
           id="carouselExampleIndicators"
@@ -954,7 +968,7 @@
             ></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item  active">
               <div class="row">
                 <div class="col-md-4">
                   <div class="bg-white shadow-sm  our-bolg-hover">
@@ -963,18 +977,18 @@
                               </div>           
                    <div class="px-3 py-4 ">
                       <p class=" ">trends</p>
-                      <h3 class="">
+                      <h3 class="h4 main-color fw-bolder">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       </h3>
                       <a
                         href=""
-                        class="second-main-color text-decoration-none border-bottom border-3 border-dark"
+                        class="second-main-color  text-decoration-none border-bottom border-3 border-dark"
                         >read more</a
                       >
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                   <div class="bg-white our-bolg-hover shadow-sm">
                     <div class=" overflow-hidden">
 
@@ -982,7 +996,7 @@
                     </div>
                     <div class="px-3 py-4">
                       <p class=" ">trends</p>
-                      <h3 class="">
+                      <h3 class="h4 main-color fw-bolder">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       </h3>
                       <a
@@ -1002,7 +1016,7 @@
 </div>
                     <div class="px-3 py-4">
                       <p class=" ">trends</p>
-                      <h3 class="">
+                      <h3 class="h4 main-color fw-bolder">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       </h3>
                       <a
@@ -1025,7 +1039,7 @@
 </div>
                     <div class="px-3 py-4">
                       <p class=" ">trends</p>
-                      <h3 class="">
+                      <h3 class="h4 main-color fw-bolder">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       </h3>
                       <a
@@ -1045,7 +1059,7 @@
 </div>
                     <div class="px-3 py-4">
                       <p class=" ">trends</p>
-                      <h3 class="">
+                      <h3 class="h4 main-color fw-bolder">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       </h3>
                       <a
@@ -1064,7 +1078,7 @@
 </div>
                     <div class="px-3 py-4">
                       <p class=" ">trends</p>
-                      <h3 class="">
+                      <h3 class="h4 main-color fw-bolder">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       </h3>
                       <a
@@ -1082,28 +1096,28 @@
       </div>
     </section>
     <!-- ----------------------contact section --------------------------- -->
-    <section class="py-5">
+    <section class="py-5" id="contact">
       <div class="container px-5">
         <h2 class="h1 p-5 text-black fw-bolder text-capitalize text-center">conact us.</h2>
 
         <div class="row px-5">
           <div class="col-md-4 text-center service-hover">
-            <i class="fa-solid fa-location-arrow main-color rounded-circle p-3"></i>
-            <div class="fw-bold py-2">Address</div>
+            <i class="fa-solid fa-location-arrow bg-gray main-color fs-4 rounded-circle p-3"></i>
+            <div class="fw-bold main-color py-2">Address</div>
             <div class=" py-2">6834 Hollywood Blvd - Los Angeles CA</div>
           </div>
           <div class="col-md-4 text-center service-hover">
             <i
-              class="fa-solid fa-message main-color main-color rounded-circle p-3"
+              class="fa-solid fa-message main-color bg-gray rounded-circle p-3 fs-4 " 
             ></i>
-            <div class="fw-bold py-2">Email</div>
+            <div class="fw-bold main-color py-2">Email</div>
             <div class=" py-2">Support@website.com            </div>
           </div>
           <div class="col-md-4 text-center service-hover">
             <i
-              class="fa-solid fa-phone main-color main-color rounded-circle p-3"
+              class="fa-solid fa-phone main-color bg-gray main-color fs-4 rounded-circle p-3"
             ></i>
-            <div class="fw-bold py-2">Phone</div>
+            <div class="fw-bold main-color py-2">Phone</div>
             <div class=" py-2">6834 Hollywood Blvd - Los Angeles CA</div>
           </div>
 
@@ -1112,7 +1126,7 @@
                <div class="col-md-6">
                 <label for="name"></label>
                 <input
-                  class=" form-control  bg-gray"
+                  class=" form-control-plaintext p-2  bg-gray"
                   type="text"
                   name=""
                   id="name"
@@ -1122,7 +1136,7 @@
               <div class=" col-md-6">
                  <label for="email"></label>
                  <input
-                   class=" form-control  bg-gray"
+                   class=" form-control-plaintext p-2  bg-gray"
                    type="email"
                    name=""
                    id="email"
@@ -1133,8 +1147,9 @@
             <label for="messageme"></label>
             <textarea
               name="messageme"
-              class="form-control bg-gray"
+              class=" form-control-plaintext p-2 bg-gray"
               id="messageme"
+              
               cols=""
               rows="5"
               placeholder="message me"
@@ -1147,13 +1162,19 @@
       </div>
     </section>
     <!-- ----------------------footer section --------------------------- -->
-    <footer>
+    <footer id="footer">
       <div class="bg-black">
         <p class="p-5 m-5 mb-0 text-center">
           Copy Right 2018 © By Daniels All Rights Reserved
         </p>
       </div>
     </footer>
+
+
+
+
+    
+
     <script src="src code/bootstrap.bundle.min.js"></script>
     <script src="src code/typed.js"></script>
     <script src="src code/index.js"></script>
